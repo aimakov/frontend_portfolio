@@ -10,8 +10,8 @@ const Intro = () => {
 
     return (
         <div className="relative h-screen bg-gradient-to-t from-indigo-200 flex flex-col justify-start items-center">
-            <nav className="w-full fixed top-0 ">
-                <div className=" container mx-auto py-5 px-10 flex justify-between items-center">
+            <nav className="w-full fixed top-0 bg-white bg-opacity-80">
+                <div className=" container mx-auto py-5 px-10 flex justify-between items-center ">
                     <div>
                         {/* <img /> */}
                         <span className="text-2xl font-semibold">aimakov.dev</span>
@@ -73,7 +73,9 @@ const Intro = () => {
                     </h2>
                     <p className=" flex justify-between text-[1.5rem]">React Front-End Developer </p>
 
-                    <button className=" bg-white text-indigo-500 text-lg h-full py-2 px-4 mt-4 rounded-xl">See my work</button>
+                    <button className=" bg-white hover:bg-gray-100 hover:text-indigo-600 cursor-pointer text-indigo-500 text-lg h-full py-2 px-4 mt-4 rounded-xl">
+                        See my work
+                    </button>
                 </div>
             </div>
         </div>
