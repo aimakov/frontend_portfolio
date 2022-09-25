@@ -62,7 +62,7 @@ const Intro = () => {
                     </ul>
                 </div>
             </nav>
-            <div className="w-full flex flex-col justify-evenly items-start mt-28 gap-16">
+            <div className="w-full flex flex-col justify-evenly items-start mt-28 gap-12">
                 <div className="bg-[url('/public/assets/images/almaty.jpeg')] w-11/12 h-[300px] bg-cover bg-center rounded-3xl mx-auto"></div>
                 <div className="w-11/12 mx-auto flex flex-col justify-evenly items-start gap-6">
                     <h2 className="text-[2.3rem] font-bold flex flex-col">
