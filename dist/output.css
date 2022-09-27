@@ -617,16 +617,16 @@ video {
   margin-right: auto;
 }
 
-.ml-12 {
-  margin-left: 3rem;
-}
-
 .mt-28 {
   margin-top: 7rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .flex {
@@ -673,12 +673,24 @@ video {
   height: 100%;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
 .h-8 {
   height: 2rem;
 }
 
 .h-9 {
   height: 2.25rem;
+}
+
+.h-11 {
+  height: 2.75rem;
+}
+
+.h-\[38px\] {
+  height: 38px;
 }
 
 .w-full {
@@ -689,12 +701,12 @@ video {
   width: 10rem;
 }
 
-.w-3\/4 {
-  width: 75%;
-}
-
 .w-10 {
   width: 2.5rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .w-6 {
@@ -705,12 +717,20 @@ video {
   width: 91.666667%;
 }
 
-.w-8 {
-  width: 2rem;
-}
-
 .w-9 {
   width: 2.25rem;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-\[42px\] {
+  width: 42px;
 }
 
 .translate-y-\[3px\] {
@@ -747,48 +767,32 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-\[100px\] {
-  grid-template-columns: 100px;
-}
-
-.grid-cols-\[100px_1fr\] {
-  grid-template-columns: 100px 1fr;
+.grid-cols-\[180px_1fr\] {
+  grid-template-columns: 180px 1fr;
 }
 
 .grid-cols-\[150px_1fr\] {
   grid-template-columns: 150px 1fr;
 }
 
-.grid-cols-\[200px_1fr\] {
-  grid-template-columns: 200px 1fr;
-}
-
-.grid-cols-\[180px_1fr\] {
-  grid-template-columns: 180px 1fr;
+.grid-rows-\[40px\] {
+  grid-template-rows: 40px;
 }
 
 .grid-rows-4 {
   grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
-.grid-rows-\[100px\] {
-  grid-template-rows: 100px;
-}
-
-.grid-rows-\[40px\] {
-  grid-template-rows: 40px;
+.grid-rows-\[1fr_1fr_1fr_1fr\] {
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -811,10 +815,6 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .justify-evenly {
   justify-content: space-evenly;
 }
@@ -823,36 +823,28 @@ video {
   gap: 2.5rem;
 }
 
-.gap-16 {
-  gap: 4rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .gap-12 {
   gap: 3rem;
 }
 
-.gap-y-6 {
-  row-gap: 1.5rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
-.gap-y-2 {
-  row-gap: 0.5rem;
+.gap-14 {
+  gap: 3.5rem;
 }
 
 .gap-y-4 {
   row-gap: 1rem;
+}
+
+.gap-y-2 {
+  row-gap: 0.5rem;
 }
 
 .space-x-10 > :not([hidden]) ~ :not([hidden]) {
@@ -945,14 +937,6 @@ video {
   background-image: url('/public/assets/skill_logos/styled_components.png');
 }
 
-.bg-gradient-to-t {
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\/public\/assets\/images\/almaty\.jpeg\'\)\] {
-  background-image: url('/public/assets/images/almaty.jpeg');
-}
-
 .bg-\[url\(\'\/public\/assets\/skill_logos\/illustrator\.png\'\)\] {
   background-image: url('/public/assets/skill_logos/illustrator.png');
 }
@@ -973,6 +957,54 @@ video {
   background-image: url('/public/assets/skill_logos/raspberry_pi.png');
 }
 
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\/public\/assets\/images\/almaty\.jpeg\'\)\] {
+  background-image: url('/public/assets/images/almaty.jpeg');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/node\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/node.png');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/express\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/express.png');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/mongodb\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/mongodb.png');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/django\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/django.png');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/firebase\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/firebase.png');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/socketio\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/socketio.png');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/redux\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/redux.png');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/arduino\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/arduino.png');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/after_effects\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/after_effects.png');
+}
+
+.bg-\[url\(\'\/public\/assets\/skill_logos\/premiere_pro\.png\'\)\] {
+  background-image: url('/public/assets/skill_logos/premiere_pro.png');
+}
+
 .from-indigo-200 {
   --tw-gradient-from: #c7d2fe;
   --tw-gradient-to: rgb(199 210 254 / 0);
@@ -981,6 +1013,10 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-center {
@@ -1011,9 +1047,9 @@ video {
   padding-right: 1rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pr-2 {
@@ -1024,16 +1060,16 @@ video {
   padding-left: 0.5rem;
 }
 
+.pr-8 {
+  padding-right: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .text-3xl {
@@ -1084,6 +1120,12 @@ video {
 .text-indigo-500 {
   --tw-text-opacity: 1;
   color: rgb(99 102 241 / var(--tw-text-opacity));
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .transition-all {
