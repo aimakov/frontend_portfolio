@@ -10,7 +10,7 @@ const Intro = () => {
 
   return (
     <div className="relative h-screen bg-gradient-to-t from-indigo-200 flex flex-col justify-center items-center">
-      <nav className="w-full fixed top-0 bg-white bg-opacity-80">
+      <nav className="w-full fixed top-0 bg-white bg-opacity-50 rounded-b-xl backdrop-blur-md ">
         <div className=" container mx-auto py-5 px-10 flex justify-between items-center ">
           <div>
             {/* <img /> */}
