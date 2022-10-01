@@ -62,14 +62,14 @@ const Intro = () => {
                     </ul>
                 </div>
             </nav>
-            <div className="w-full h-screen flex flex-col justify-evenly items-start">
+            <div className="w-full min-h-screen flex flex-col lg:flex-row lg:justify-center lg:items-center lg:pt-[72px] justify-evenly items-start">
                 {/* <div className="bg-[url('/public/assets/images/almaty.jpeg')] w-11/12 h-[300px] bg-cover bg-center rounded-3xl mx-auto"></div> */}
-                <img className="full" src="/assets/images/almaty.jpeg" alt="" />
+                <img className=" full max-w-lg rounded-2xl lg:mx-10" src="/assets/images/almaty.jpeg" alt="" />
                 {/* <img class="w-full" src="/assets/images/Dreamate.png" alt="Sunset in the mountains" /> */}
 
-                <div className="w-11/12 mx-auto flex flex-col justify-evenly items-start gap-6">
-                    <h2 className="text-[2.3rem] font-bold flex flex-col">
-                        <span>Hi,</span>
+                <div className="w-11/12 mx-auto flex flex-col justify-evenly items-start lg:items-center gap-6">
+                    <h2 className="text-[2.3rem] font-bold flex flex-col lg:flex-row">
+                        <span>Hi,&nbsp;</span>
                         <span>
                             I'm <span className="text-indigo-500">Nurbolat</span>,
                         </span>
