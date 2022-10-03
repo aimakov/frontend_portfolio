@@ -3,13 +3,13 @@ import Intro from "./components/Intro";
 import Projects from "./components/Projects";
 
 function App() {
-    return (
-        <>
-            <Intro />
-            <AboutMe />
-            <Projects />
-        </>
-    );
+  return (
+    <div>
+      <Intro />
+      <AboutMe />
+      <Projects />
+    </div>
+  );
 }
 
 export default App;
