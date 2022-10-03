@@ -1,11 +1,12 @@
 import React from "react";
+import Dreamate from "./Projects/Dreamate";
 // import Dreamate from "../../public/assets/images/Dreamate.png";
 
 const Projects = () => {
     return (
-        <div className=" w-full flex flex-col justify-center items-center bg-gradient-to-b from-white to-indigo-200">
+        <div className=" w-full min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-white to-indigo-200">
             <h2 className="text-3xl font-bold mb-8">My Projects </h2>
-            <ul className="w-full flex flex-col lg:flex-row lg:items-start lg:justify-evenly lg:gap-10 lg:flex-wrap lg:w-3/4 gap-10 justify-center items-center">
+            <ul className="w-full flex flex-col lg:flex-row lg:items-start lg:justify-evenly lg:gap-10 lg:flex-wrap justify-evenly items-center">
                 <li class="max-w-sm rounded-xl lg:min-h-[550px] lg:flex lg:flex-col lg:justify-between overflow-hidden shadow-lg bg-white">
                     <div>
                         <img class="w-full" src="/assets/images/Dreamate.png" alt="Sunset in the mountains" />
@@ -61,6 +62,7 @@ const Projects = () => {
                     </div>
                 </li>
             </ul>
+            <Dreamate />
         </div>
     );
 };
