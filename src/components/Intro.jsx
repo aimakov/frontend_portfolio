@@ -7,9 +7,8 @@ const Intro = () => {
   const [navOpacity, setNavOpacity] = useState(0);
 
   const handleScroll = () => {
-    if (window.scrollY > 200) {
-      setNavOpacity(50);
-    } else setNavOpacity(0);
+    if (window.scrollY > 200) setNavOpacity(50);
+    else setNavOpacity(0);
     // console.log("lol");
   };
 

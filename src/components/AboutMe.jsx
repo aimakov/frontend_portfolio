@@ -1,61 +1,49 @@
 import React from "react";
+import { ReactComponent as YourSvg } from "../svg/icons/github.svg";
 
 const AboutMe = () => {
-    return (
-        <div className="h-screen w-full flex flex-col justify-center items-center gap-10 bg-gradient-to-b from-indigo-200">
-            {/* <div className="flex flex-col justify-evenly items-center gap-10"> */}
-            {/* <img className="bg-[url('/public/assets/images/passport.jpg')] w-40 h-48 rounded-[80px] bg-cover bg-center" /> */}
+  return (
+    <div className=" font-hind py-[50px] flex items-center w-8/12 mx-auto">
+      <div className="flex-col w-2/4">
+        <h2 className="text-3xl font-bold font-hind">
+          Hello, I'm Nurbolat Aimakov
+        </h2>
 
-            <h2 className="text-3xl font-bold">My skills</h2>
-            <div className="w-full grid  grid-cols-[150px_1fr] gap-y-4 items-center">
-                <h3 className="text-lg font-semibold text-right pr-2">Frontend:</h3>
-                <ul className="flex justify-start gap-2 pl-2 flex-wrap">
-                    <div className="bg-[url('/public/assets/skill_logos/react.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/typescript.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/redux.png')] w-10 h-[38px] bg-center bg-cover rounded-md" />
+        <h3 className="flex text-xl items-center gap-2">
+          Web developer from
+          <img
+            className="w-8 h-8"
+            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-kazakhstan_1f1f0-1f1ff.png"
+          />
+          , currently in
+          <img
+            className="w-8 h-8"
+            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-south-korea_1f1f0-1f1f7.png"
+          />
+        </h3>
 
-                    <div className="bg-[url('/public/assets/skill_logos/tailwindcss.png')] w-10 h-6 my-2 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/styled_components.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    {/* <div className="bg-[url('/public/assets/skill_logos/javascript.png')] w-10 h-10 bg-center bg-cover rounded-md" /> */}
-                </ul>
-
-                <h3 className="text-lg font-semibold text-right pr-2">Backend:</h3>
-                <ul className="flex justify-start gap-2 pl-2 flex-wrap ">
-                    <div className="bg-[url('/public/assets/skill_logos/firebase.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/socketio.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/node.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/express.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/mongodb.png')] w-9 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/django.png')] w-9 h-10 bg-center bg-cover rounded-md" />
-                </ul>
-
-                {/* <h3 className="text-lg font-semibold text-right pr-2">
-            Markup & Styling:
-          </h3>
-          <ul className="flex justify-start gap-2 pl-2">
-            <div className="bg-[url('/public/assets/skill_logos/tailwindcss.png')] w-10 h-6 my-2 bg-center bg-cover rounded-md" />
-            <div className="bg-[url('/public/assets/skill_logos/styled_components.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-          </ul> */}
-
-                <h3 className="text-lg font-semibold text-right pr-2">Graphic Design:</h3>
-                <ul className="flex justify-start gap-2 pl-2 flex-wrap">
-                    <div className="bg-[url('/public/assets/skill_logos/illustrator.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/photoshop.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/after_effects.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/premiere_pro.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                </ul>
-
-                <h3 className="text-lg font-semibold text-right pr-2">Engineering:</h3>
-                <ul className="flex justify-start gap-2 pl-2 items-center flex-wrap">
-                    <div className="bg-[url('/public/assets/skill_logos/solidworks.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/kicad.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/raspberry_pi.png')] w-8 h-10 bg-center bg-cover rounded-md" />
-                    <div className="bg-[url('/public/assets/skill_logos/arduino.png')] w-10 h-10 bg-center bg-cover rounded-md" />
-                </ul>
-            </div>
-            {/* </div> */}
+        <p className="pt-4">
+          Currently, I'm a PhD candidate in biomedical engineering at Ulsan
+          National Institute of Science and Technology (UNIST, South Korea).
+        </p>
+        <p className="pt-4">
+          Throughout my studies, even though I find biomedical engineering
+          extremely broad and exciting field, I finally decided to bind my life
+          & career with coding in one of it's form and after trying myself in
+          several directions I chose Front-End development as my main focus.
+        </p>
+        <p className="pt-4">
+          I enjoy building webapps that solve people Despite focuing on
+          Front-End, I also taught myself Back-End technologies like Django &
+          MERN stack to build complete webapps.
+        </p>
+        <div>
+          <YourSvg fill="red" onMouseEnter />
         </div>
-    );
+      </div>
+      <div></div>
+    </div>
+  );
 };
 
 export default AboutMe;
