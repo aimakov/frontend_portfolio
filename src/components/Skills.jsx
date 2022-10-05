@@ -2,12 +2,12 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="h-screen w-full flex flex-col justify-center items-center gap-10 bg-gradient-to-b from-indigo-200">
+    <div className="w-2/4 flex flex-col justify-start items-center gap-10 ">
       {/* <div className="flex flex-col justify-evenly items-center gap-10"> */}
       {/* <img className="bg-[url('/public/assets/images/passport.jpg')] w-40 h-48 rounded-[80px] bg-cover bg-center" /> */}
 
       <h2 className="text-3xl font-bold">My skills</h2>
-      <div className="w-full grid  grid-cols-[150px_1fr] gap-y-4 items-center">
+      <div className="w-full grid grid-cols-[150px_1fr] lg:w-auto lg:grid-cols-[150px_300px] mx-auto gap-y-4 items-center">
         <h3 className="text-lg font-semibold text-right pr-2">Frontend:</h3>
         <ul className="flex justify-start gap-2 pl-2 flex-wrap">
           <div className="bg-[url('/public/assets/skill_logos/react.png')] w-10 h-10 bg-center bg-cover rounded-md" />

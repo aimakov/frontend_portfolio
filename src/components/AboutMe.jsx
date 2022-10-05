@@ -1,10 +1,25 @@
-import React from "react";
-import { ReactComponent as YourSvg } from "../svg/icons/github.svg";
+import React, { useState } from "react";
+import { ReactComponent as Github } from "../svg/icons/github.svg";
+import { ReactComponent as Instagram } from "../svg/icons/instagram.svg";
+import { ReactComponent as Linkedin } from "../svg/icons/linkedin.svg";
+import Skills from "./Skills";
 
 const AboutMe = () => {
+  const [instagramColor, setInstagramColor] = useState("black");
+  const [linkedInColor, setLinkedInColor] = useState("black");
+  const [githubColor, setGithubColor] = useState("black");
+
+  const changeColorOnEnter = (method) => {
+    method("green");
+  };
+
+  const changeColorOnLeave = (method) => {
+    method("black");
+  };
+
   return (
-    <div className=" font-hind py-[50px] flex items-center w-8/12 mx-auto">
-      <div className="flex-col w-2/4">
+    <div className=" font-hind py-[100px] flex flex-col lg:flex-row items-start justify-between lg:justify-evenly w-10/12 mx-auto">
+      <div className="flex-col max-w-[600px]">
         <h2 className="text-3xl font-bold font-hind">
           Hello, I'm Nurbolat Aimakov
         </h2>
@@ -33,15 +48,33 @@ const AboutMe = () => {
           several directions I chose Front-End development as my main focus.
         </p>
         <p className="pt-4">
-          I enjoy building webapps that solve people Despite focuing on
-          Front-End, I also taught myself Back-End technologies like Django &
-          MERN stack to build complete webapps.
+          Currenly, I enjoy building highly interactable web applications that
+          solve people . Apart from Front-End, I'm proficient Back-End
+          technologies like Django & MERN stack to build complete webapps.
         </p>
-        <div>
-          <YourSvg fill="red" onMouseEnter />
+        <div className="flex gap-10 pt-4">
+          <Instagram
+            className="cursor-pointer"
+            fill={instagramColor}
+            onMouseEnter={() => changeColorOnEnter(setInstagramColor)}
+            onMouseLeave={() => changeColorOnLeave(setInstagramColor)}
+          />
+          <Github
+            className="cursor-pointer"
+            fill={githubColor}
+            onMouseEnter={() => changeColorOnEnter(setGithubColor)}
+            onMouseLeave={() => changeColorOnLeave(setGithubColor)}
+          />
+          <Linkedin
+            className="cursor-pointer"
+            fill={linkedInColor}
+            onMouseEnter={() => changeColorOnEnter(setLinkedInColor)}
+            onMouseLeave={() => changeColorOnLeave(setLinkedInColor)}
+          />
         </div>
       </div>
-      <div></div>
+
+      <Skills />
     </div>
   );
 };

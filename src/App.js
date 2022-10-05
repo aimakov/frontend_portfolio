@@ -8,7 +8,7 @@ function App() {
     <div>
       <Intro />
       <AboutMe />
-      <Skills />
+      {/* <Skills /> */}
       <Projects />
     </div>
   );

@@ -24,9 +24,9 @@ const Intro = () => {
   return (
     <div className="relative  flex flex-col justify-center items-center bg-[url('/public/assets/images/bg.jpeg')]">
       <nav
-        className={`transition duration-200 w-full fixed top-0 bg-white bg-opacity-${navOpacity} rounded-b-xl ${
-          navOpacity !== 0 ? "backdrop-blur-md" : ""
-        } z-20`}
+        className={`transition duration-200 w-full fixed top-0 bg-white ${
+          navOpacity == 0 ? "bg-opacity-0" : "bg-opacity-60"
+        }  rounded-b-xl ${navOpacity !== 0 ? "backdrop-blur-md" : ""} z-20`}
       >
         <div className=" container mx-auto py-5 px-10 flex justify-between items-center ">
           <div>
@@ -86,7 +86,7 @@ const Intro = () => {
           <ul
             className={`${
               burgerOpen ? "" : "-translate-y-full"
-            } absolute transition-all top-0 left-0 w-full p-10 rounded-b-xl bg-indigo-400 text-white text-center flex flex-col items-center space-y-10 uppercase z-20`}
+            } absolute transition-all top-0 left-0 w-full p-10 rounded-b-xl bg-lime-700 shadow-lg text-white text-center flex flex-col items-center space-y-10 uppercase z-20`}
           >
             <li className="flex items-center">
               <a href="#" className="hover:text-gray-200">
@@ -125,7 +125,7 @@ const Intro = () => {
               <span>I'm Nurbolat,</span>
             </h2>
             <p className=" flex justify-between text-white text-[1.5rem]">
-              React Front-End Developer{" "}
+              Front-End Developer{" "}
             </p>
           </div>
 
