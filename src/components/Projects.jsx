@@ -1,103 +1,55 @@
 import React from "react";
-import Dreamate from "./Projects/Dreamate";
-// import Dreamate from "../../public/assets/images/Dreamate.png";
+import ProjectCard from "./elements/ProjectCard";
 
 const Projects = () => {
-  return (
-    <div className=" w-full min-h-screen flex flex-col justify-center items-center bg-[url('/public/assets/images/bg.jpeg')]">
-      <h2 className="text-3xl font-bold mb-8">My Projects </h2>
-      <ul className="w-full flex flex-col lg:flex-row lg:items-start lg:justify-evenly lg:gap-10 lg:flex-wrap justify-evenly items-center">
-        <li class="max-w-sm rounded-xl lg:min-h-[550px] lg:flex lg:flex-col lg:justify-between overflow-hidden shadow-lg bg-white">
-          <div>
-            <img
-              class="w-full"
-              src="/assets/images/Dreamate.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Dreamate - </div>
-              <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
-            </div>
-          </div>
-
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #React
-            </span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #Socket.io
-            </span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #MERN
-            </span>
-          </div>
-        </li>
-        <li class="max-w-sm rounded-xl lg:min-h-[550px] lg:flex lg:flex-col lg:justify-between overflow-hidden shadow-lg bg-white">
-          <div>
-            <img
-              class="w-full"
-              src="/assets/images/Cakesie.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Cakesie</div>
-              <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
-            </div>
-          </div>
-
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #React
-            </span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #styled-components
-            </span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #Illustrator
-            </span>
-          </div>
-        </li>
-        <li class="max-w-sm rounded-xl lg:min-h-[550px] lg:flex lg:flex-col lg:justify-between overflow-hidden shadow-lg bg-white">
-          <div>
-            <img
-              class="w-full"
-              src="/assets/images/Nextico.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Nextico</div>
-              <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
-            </div>
-          </div>
-
-          <div class="px-6 pt-4 pb-2">
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #React
-            </span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #tailwindcss
-            </span>
-            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              #drag-n-drop
-            </span>
-          </div>
-        </li>
-      </ul>
-      <Dreamate />
-    </div>
-  );
+    return (
+        <div className=" w-full p-20 flex flex-col justify-center items-center bg-gray-200">
+            <h2 className="text-3xl font-bold mb-16">My Projects </h2>
+            <ul className="w-full flex flex-col lg:flex-row lg:items-start lg:justify-evenly lg:gap-[70px] lg:flex-wrap justify-evenly items-center">
+                <ProjectCard
+                    src={"/assets/images/Dreamate.png"}
+                    title={"Dreamate"}
+                    description={
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitatione praesentium nihil."
+                    }
+                    link={"https://dreamate.io"}
+                    hashtags={["React.js", "Socket.io", "Express.js"]}
+                    buttonStyle="bg-gradient-to-r from-green-200 to-blue-200"
+                />
+                <ProjectCard
+                    src={"/assets/images/Cakesie.png"}
+                    title={"Cakesie"}
+                    description={
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitatione praesentium nihil."
+                    }
+                    link={"https://cakesie.netlify.app"}
+                    hashtags={["React.js", "styled-components", "Illustrator"]}
+                    buttonStyle="bg-gradient-to-r from-orange-300 to-orange-200"
+                />
+                <ProjectCard
+                    src={"/assets/images/Nextico.png"}
+                    title={"Nextico"}
+                    description={
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitatione praesentium nihil."
+                    }
+                    link={"https://nextico.netlify.app"}
+                    hashtags={["React.js", "tailwindcss", "drag-n-drop"]}
+                    buttonStyle="bg-[#e0e0e0] shadow-gray-100"
+                />
+                <ProjectCard
+                    src={"/assets/images/hyewonsaidyes.png"}
+                    title={"Mobile Wedding Invitation"}
+                    description={
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitatione praesentium nihil."
+                    }
+                    link={"https://hyewonsaidyes.love"}
+                    hashtags={["React.js", "tailwindcss", "KakaoMap API"]}
+                    buttonStyle="bg-[url('/public/assets/images/roses.png')] bg-contain"
+                />
+            </ul>
+            {/* <Dreamate /> */}
+        </div>
+    );
 };
 
 export default Projects;
