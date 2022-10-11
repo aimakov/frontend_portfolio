@@ -45,6 +45,7 @@ const Projects = () => {
                     link={"https://hyewonsaidyes.love"}
                     hashtags={["React.js", "tailwindcss", "KakaoMap API"]}
                     buttonStyle="bg-[url('/public/assets/images/roses.png')] bg-contain"
+                    insideButtonStyle=" absolute top-0 left-0 w-full h-full bg-white bg-opacity-70 z-10 rounded-xl"
                 />
             </ul>
             {/* <Dreamate /> */}

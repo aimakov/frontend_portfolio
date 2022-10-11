@@ -1,5 +1,4 @@
 import React from "react";
-import Marquee from "react-fast-marquee";
 
 const ProjectCard = (props) => {
     // const navigate = useNavigate();
@@ -18,14 +17,15 @@ const ProjectCard = (props) => {
             <div className="flex flex-col gap-6">
                 <div className="px-6">
                     <div className="hover:-translate-y-[4px] transition w-fit">
-                        <a href={props.link} className={`p-2 ${props.buttonStyle} rounded-xl shadow-md`}>
-                            View Project
+                        <a href={props.link} className={`p-2 ${props.buttonStyle} rounded-xl shadow-md flex relative`}>
+                            <div className={props.insideButtonStyle}></div>
+                            <p className="z-20">View Project</p>
                         </a>
                     </div>
                 </div>
                 <div className="w-full pl-6 py-2 flex justify-start gap-1">
                     {props.hashtags.map((hashtag) => (
-                        <span class="inline-block bg-gray-200 rounded-full p-2 text-[12px] font-semibold text-gray-700 mr-2 mb-2 ">#{hashtag}</span>
+                        <span class="inline-block rounded-full py-2 text-[12px] font-semibold text-gray-700 mr-2 mb-2 ">#{hashtag}</span>
                     ))}
                 </div>
 

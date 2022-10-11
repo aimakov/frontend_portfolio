@@ -34,21 +34,24 @@ const Intro = () => {
                     <div className=" container mx-auto py-5 px-10 flex justify-between items-center ">
                         <div>
                             {/* <img /> */}
-                            <span className={`text-2xl font-semibold `}>aimakov.dev</span>
+                            <span className={`text-2xl font-hind  ${navOpacity !== 0 ? "text-gray-600" : "text-gray-200"}`}>aimakov.dev</span>
                         </div>
                         <ul className={`hidden md:flex space-x-10 uppercase text-md  ${navOpacity !== 0 ? "text-gray-600" : "text-gray-200"}`}>
                             <li className="flex items-center">
-                                <a href="#" className="hover:text-gray-500">
+                                <a
+                                    href="#"
+                                    className="hover:text-gray-100 after:content-[''] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-red-500"
+                                >
                                     Homepage
                                 </a>
                             </li>
                             <li className="flex items-center">
-                                <a href="#" className="hover:text-gray-500">
+                                <a href="#" className="hover:text-gray-100">
                                     About me
                                 </a>
                             </li>
                             <li className="flex items-center">
-                                <a href="#" className="hover:text-gray-500">
+                                <a href="#" className="hover:text-gray-100">
                                     Projects
                                 </a>
                             </li>
