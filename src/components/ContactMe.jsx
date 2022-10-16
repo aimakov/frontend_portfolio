@@ -20,7 +20,7 @@ const ContactMe = () => {
     }
 
     return (
-        <div className="flex flex-col justify-center items-center py-20">
+        <div id="ContactMe" className="flex flex-col justify-center items-center py-20">
             <h2 className="text-3xl font-bold mb-16">Contact Me</h2>
             <div className="flex flex-col justify-center items-center gap-10">
                 <div className="grid grid-cols-3 gap-y-2 grid-rows-2 justify-center align-middle">

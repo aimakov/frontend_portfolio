@@ -3,14 +3,14 @@ import ProjectCard from "./elements/ProjectCard";
 
 const Projects = () => {
     return (
-        <div className=" w-full p-20 flex flex-col justify-center items-center bg-gray-200">
+        <div id="Projects" className=" w-full p-20 flex flex-col justify-center items-center bg-gray-200">
             <h2 className="text-3xl font-bold mb-16">My Projects </h2>
             <ul className="w-full flex flex-col lg:flex-row lg:items-start lg:justify-evenly lg:gap-[70px] lg:flex-wrap justify-evenly items-center">
                 <ProjectCard
                     src={"/assets/images/Dreamate.png"}
                     title={"Dreamate"}
                     description={
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitatione praesentium nihil."
+                        "Full-stack web application (MERN stack) that combines decentralized music playlist and randomized & balanced teams generator."
                     }
                     link={"https://dreamate.io"}
                     hashtags={["React.js", "Socket.io", "Express.js"]}
@@ -20,7 +20,7 @@ const Projects = () => {
                     src={"/assets/images/Cakesie.png"}
                     title={"Cakesie"}
                     description={
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitatione praesentium nihil."
+                        "Web application for creating cakes with custom combination of flavors for the layers, cream and icing or selecting from menu list."
                     }
                     link={"https://cakesie.netlify.app"}
                     hashtags={["React.js", "styled-components", "Illustrator"]}
@@ -29,9 +29,7 @@ const Projects = () => {
                 <ProjectCard
                     src={"/assets/images/Nextico.png"}
                     title={"Nextico"}
-                    description={
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitatione praesentium nihil."
-                    }
+                    description={"Created an advanced variation of the original Tic-Tac-Toe with an additional feature and drag-n-drop functionality. "}
                     link={"https://nextico.netlify.app"}
                     hashtags={["React.js", "tailwindcss", "drag-n-drop"]}
                     buttonStyle="bg-[#e0e0e0] shadow-gray-100"
@@ -39,9 +37,7 @@ const Projects = () => {
                 <ProjectCard
                     src={"/assets/images/hyewonsaidyes.png"}
                     title={"Mobile Wedding Invitation"}
-                    description={
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitatione praesentium nihil."
-                    }
+                    description={"A mobile-oriented invitation for my wedding ceremony."}
                     link={"https://hyewonsaidyes.love"}
                     hashtags={["React.js", "tailwindcss", "KakaoMap API"]}
                     buttonStyle="bg-[url('/public/assets/images/roses.png')] bg-contain"

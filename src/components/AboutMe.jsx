@@ -19,7 +19,7 @@ const AboutMe = () => {
     };
 
     return (
-        <div className=" font-hind py-[100px] flex flex-col lg:flex-row items-start justify-between lg:justify-evenly w-10/12 mx-auto">
+        <div id="AboutMe" className=" font-hind py-[100px] flex flex-col lg:flex-row items-start justify-between lg:justify-evenly w-10/12 mx-auto">
             <div className="flex-col max-w-[600px]">
                 <h2 className="text-3xl font-bold font-hind">Hello, I'm Nurbolat Aimakov</h2>
 
