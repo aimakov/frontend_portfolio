@@ -85,10 +85,14 @@ const AboutMe = () => {
             />
           </a>
 
-          <div className="flex justify-center items-center gap-2 border border-black pt-1 px-2 rounded-xl cursor-pointer hover:bg-[#007D13] hover:bg-opacity-90 hover:text-white hover:border-white transition ">
+          <a
+            href="/assets/files/Resume_Nurbolat_Aimakov.pdf"
+            download
+            className="flex justify-center items-center gap-2 border border-black pt-1 px-2 rounded-xl cursor-pointer hover:bg-[#007D13] hover:bg-opacity-90 hover:text-white hover:border-white transition "
+          >
             <FiDownload className="text-xl -translate-y-[2px]" />
             My resume
-          </div>
+          </a>
         </div>
       </div>
 

@@ -37,7 +37,7 @@ const Intro = () => {
           }  rounded-b-lg  ${navOpacity ? "backdrop-blur-md" : ""} z-20`}
         >
           <div className=" container h-20 mx-auto py-5 px-10 flex justify-between items-center ">
-            <div>
+            <div className="cursor-pointer">
               {/* <img /> */}
               <Link
                 to="Homepage"
@@ -45,7 +45,7 @@ const Intro = () => {
                 // offset={-200}
                 duration={1000}
                 className={`text-2xl font-hind  ${
-                  navOpacity ? "text-gray-600" : "text-gray-200"
+                  navOpacity ? "text-black" : "text-white"
                 }`}
               >
                 aimakov.dev
@@ -53,7 +53,7 @@ const Intro = () => {
             </div>
             <ul
               className={`hidden md:flex space-x-10 uppercase text-md  ${
-                navOpacity ? "text-gray-600" : "text-gray-200"
+                navOpacity ? "text-black" : "text-white"
               }`}
             >
               <li
@@ -70,7 +70,7 @@ const Intro = () => {
                     navOpacity
                       ? "after:bg-black"
                       : "hover:text-white after:bg-white"
-                  } cursor-pointer after:content-[''] relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:hover:w-full after:bg-white after:transition-all
+                  } cursor-pointer after:content-[''] relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:hover:w-full  after:transition-all
                                     
                                     `}
                 >
@@ -88,7 +88,7 @@ const Intro = () => {
                     navOpacity
                       ? "after:bg-black"
                       : "hover:text-white after:bg-white"
-                  } cursor-pointer after:content-[''] relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:hover:w-full after:bg-white after:transition-all
+                  } cursor-pointer after:content-[''] relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:hover:w-full  after:transition-all
                                     
                                     `}
                 >
