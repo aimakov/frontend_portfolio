@@ -19,6 +19,10 @@ const Intro = () => {
     // return window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const closeBurgerOnClick = () => {
+    setBurgerOpen(false);
+  };
+
   const handleBurderClicked = () => {
     setBurgerOpen((prevstate) => !prevstate);
   };
@@ -44,6 +48,7 @@ const Intro = () => {
                 smooth={true}
                 // offset={-200}
                 duration={1000}
+                ignoreCancelEvents
                 className={`text-2xl font-hind  ${
                   navOpacity ? "text-black" : "text-white"
                 }`}
@@ -66,6 +71,7 @@ const Intro = () => {
                   smooth={true}
                   // offset={-200}
                   duration={1000}
+                  ignoreCancelEvents
                   className={`${
                     navOpacity
                       ? "after:bg-black"
@@ -84,6 +90,7 @@ const Intro = () => {
                   smooth={true}
                   offset={-200}
                   duration={1000}
+                  ignoreCancelEvents
                   className={`${
                     navOpacity
                       ? "after:bg-black"
@@ -101,6 +108,7 @@ const Intro = () => {
                   smooth={true}
                   offset={-50}
                   duration={1000}
+                  ignoreCancelEvents
                   className={`${
                     navOpacity
                       ? "after:bg-black"
@@ -118,6 +126,7 @@ const Intro = () => {
                   smooth={true}
                   offset={-100}
                   duration={1000}
+                  ignoreCancelEvents
                   className={`${
                     navOpacity
                       ? "after:bg-black"
@@ -126,7 +135,7 @@ const Intro = () => {
                                     
                                     `}
                 >
-                  Contact Me
+                  Hire Me
                 </Link>
               </li>
             </ul>
@@ -174,6 +183,8 @@ const Intro = () => {
                   // offset={-200}
                   duration={1000}
                   className="hover:text-gray-200"
+                  ignoreCancelEvents
+                  onClick={closeBurgerOnClick}
                 >
                   Homepage
                 </Link>
@@ -183,9 +194,11 @@ const Intro = () => {
                   to="AboutMe"
                   smooth={true}
                   // offset={-200}
-                  offset={0}
+                  offset={-20}
                   duration={1000}
                   className="hover:text-gray-200"
+                  ignoreCancelEvents
+                  onClick={closeBurgerOnClick}
                 >
                   About me
                 </Link>
@@ -194,22 +207,26 @@ const Intro = () => {
                 <Link
                   to="Projects"
                   smooth={true}
-                  offset={0}
+                  offset={-80}
                   duration={1000}
                   className="hover:text-gray-200"
+                  ignoreCancelEvents
+                  onClick={closeBurgerOnClick}
                 >
                   Projects
                 </Link>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center" onClick={closeBurgerOnClick}>
                 <Link
                   to="ContactMe"
                   smooth={true}
                   offset={0}
                   duration={1000}
+                  ignoreCancelEvents
                   className="hover:text-gray-200"
+                  onClick={closeBurgerOnClick}
                 >
-                  Contact Me
+                  Hire Me
                 </Link>
               </li>
             </ul>

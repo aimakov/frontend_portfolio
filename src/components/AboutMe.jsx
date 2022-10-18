@@ -44,19 +44,20 @@ const AboutMe = () => {
         </h3>
 
         <p className="pt-4">
-          Currently, I'm a PhD candidate in biomedical engineering at Ulsan
-          National Institute of Science and Technology (UNIST, South Korea).
+          Currently, I'm a Ph.D. candidate in biomedical engineering at Ulsan
+          National Institute of Science and Technology (UNIST, Ulsan, South
+          Korea).
         </p>
         <p className="pt-4">
-          Throughout my studies, even though I find biomedical engineering
+          Throughout my studies, even though I find biomedical engineering an
           extremely broad and exciting field, I finally decided to bind my life
-          & career with coding in one of it's form and after trying myself in
-          several directions I chose Front-End development as my main focus.
+          & career with coding in one of its forms. After trying myself in
+          several directions, I chose Front-End development as my main focus.
         </p>
         <p className="pt-4">
-          Currenly, I enjoy building highly interactable web applications that
-          solve people . Apart from Front-End, I'm proficient Back-End
-          technologies like Django & MERN stack to build complete webapps.
+          I enjoy building interactable web applications that solve/optimize
+          day-to-day things. Apart from Front-End, I'm proficient in Back-End
+          technologies like Django & MERN stack for building complete products.
         </p>
         <div className="flex gap-10 pt-4 justify-start items-center">
           <a href="https://instagram.com/aimakov.dev">
