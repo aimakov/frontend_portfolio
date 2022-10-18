@@ -263,6 +263,7 @@ const Intro = () => {
               smooth={true}
               offset={-60}
               duration={1000}
+              ignoreCancelEvents
               className=" bg-white hover:bg-gray-100 hover:text-lime-600 cursor-pointer text-lime-700 text-lg h-full py-2 px-4 mt-4 rounded-xl shadow-lg"
             >
               See my work
