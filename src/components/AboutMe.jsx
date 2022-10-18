@@ -28,17 +28,17 @@ const AboutMe = () => {
           Hello, I'm Nurbolat Aimakov
         </h2>
 
-        <h3 className="flex text-md lg:text-xl items-center gap-2">
+        <h3 className="flex text-md lg:text-xl items-center gap-2 pt-2">
           Web developer from
           <img
             alt="kazakhstan-flag"
-            className="w-8 h-8"
+            className="w-8 h-8 -translate-y-[4px]"
             src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-kazakhstan_1f1f0-1f1ff.png"
           />
           , currently in
           <img
             alt="korea-flag"
-            className="w-8 h-8"
+            className="w-8 h-8 -translate-y-[4px]"
             src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-south-korea_1f1f0-1f1f7.png"
           />
         </h3>

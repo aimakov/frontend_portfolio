@@ -4,14 +4,14 @@ import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
 
 function App() {
-    return (
-        <div>
-            <Intro />
-            <AboutMe />
-            <Projects />
-            <ContactMe />
-        </div>
-    );
+  return (
+    <div>
+      <Intro />
+      <AboutMe />
+      <Projects />
+      <ContactMe />
+    </div>
+  );
 }
 
 export default App;

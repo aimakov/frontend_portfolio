@@ -106,7 +106,7 @@ const Intro = () => {
                 <Link
                   to="Projects"
                   smooth={true}
-                  offset={-50}
+                  offset={-60}
                   duration={1000}
                   ignoreCancelEvents
                   className={`${
@@ -194,7 +194,7 @@ const Intro = () => {
                   to="AboutMe"
                   smooth={true}
                   // offset={-200}
-                  offset={-20}
+                  offset={0}
                   duration={1000}
                   className="hover:text-gray-200"
                   ignoreCancelEvents
@@ -207,7 +207,7 @@ const Intro = () => {
                 <Link
                   to="Projects"
                   smooth={true}
-                  offset={-80}
+                  offset={-60}
                   duration={1000}
                   className="hover:text-gray-200"
                   ignoreCancelEvents
@@ -261,7 +261,7 @@ const Intro = () => {
             <Link
               to="Projects"
               smooth={true}
-              offset={-100}
+              offset={-60}
               duration={1000}
               className=" bg-white hover:bg-gray-100 hover:text-lime-600 cursor-pointer text-lime-700 text-lg h-full py-2 px-4 mt-4 rounded-xl shadow-lg"
             >

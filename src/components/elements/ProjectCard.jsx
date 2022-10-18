@@ -26,7 +26,7 @@ const ProjectCard = (props) => {
               className={`p-2 ${props.buttonStyle} rounded-xl shadow-md flex relative`}
             >
               <div className={props.insideButtonStyle}></div>
-              <p className="z-20">View Project</p>
+              <p className="z-10">View Project</p>
             </a>
           </div>
         </div>
