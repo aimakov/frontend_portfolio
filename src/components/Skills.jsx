@@ -14,7 +14,7 @@ const Skills = () => {
         <h3 className="text-lg font-semibold text-right pr-2">Frontend:</h3>
         <ul className="flex justify-start gap-2 lg:gap-4 pl-2 flex-wrap">
           <div
-            data-tip="React JS"
+            data-tip="React.js"
             className="bg-[url('/public/assets/skill_logos/react.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
           />
 

@@ -7,7 +7,6 @@ import { ReactComponent as Instagram } from "../svg/icons/instagram.svg";
 import { ReactComponent as Linkedin } from "../svg/icons/linkedin.svg";
 
 import Alert from "./elements/Alert";
-import { useEffect } from "react";
 
 const ContactMe = () => {
   const formRef = useRef();
@@ -56,7 +55,6 @@ const ContactMe = () => {
           }
         );
     } else {
-      console.log("Internal error");
       setShowAlert(true); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
       setBoldText("Email not sent!");
       setAdditionalText("Change a few things up and try submitting again.");

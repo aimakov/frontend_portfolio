@@ -11,7 +11,7 @@ const Alert = (props) => {
   useEffect(() => {
     setTimeout(() => setTop(false), [2800]);
     setTimeout(() => props.setShowAlert(false), [3000]);
-  }, []);
+  });
 
   return (
     <div
