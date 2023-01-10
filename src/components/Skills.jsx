@@ -45,8 +45,8 @@ const Skills = () => {
             className="bg-[url('/public/assets/skill_logos/firebase.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
           />
           <div
-            data-tip="Socket.io"
-            className="bg-[url('/public/assets/skill_logos/socketio.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            data-tip="Supabase"
+            className="bg-[url('/public/assets/skill_logos/supabase.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
           />
           <div
             data-tip="Node.js"
@@ -57,12 +57,21 @@ const Skills = () => {
             className="bg-[url('/public/assets/skill_logos/express.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
           />
           <div
+            data-tip="Django"
+            className="bg-[url('/public/assets/skill_logos/django.png')] w-8 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md"
+          />
+          <div
+            data-tip="Socket.io"
+            className="bg-[url('/public/assets/skill_logos/socketio.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+          />
+
+          <div
             data-tip="MongoDB"
             className="bg-[url('/public/assets/skill_logos/mongodb.png')] w-7 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md"
           />
           <div
-            data-tip="Django"
-            className="bg-[url('/public/assets/skill_logos/django.png')] w-8 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md"
+            data-tip="SQLite"
+            className="bg-[url('/public/assets/skill_logos/sqlite.png')] w-7 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md"
           />
         </ul>
 
