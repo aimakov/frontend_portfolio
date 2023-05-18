@@ -16,7 +16,7 @@ const Projects = () => {
             "Full-stack web application (MERN stack) that combines decentralized music playlist and randomized & balanced teams generator."
           }
           link={"https://dreamate.vercel.app"}
-          hashtags={["React.js", "Socket.io", "Express.js"]}
+          hashtags={["Next.js", "Supabase"]}
           buttonStyle="bg-gradient-to-r from-green-200 to-blue-200"
         />
         <ProjectCard

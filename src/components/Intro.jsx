@@ -135,7 +135,7 @@ const Intro = () => {
                                     
                                     `}
                 >
-                  Hire Me
+                  Contact Me
                 </Link>
               </li>
             </ul>

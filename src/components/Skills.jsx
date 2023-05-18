@@ -15,25 +15,30 @@ const Skills = () => {
         <ul className="flex justify-start gap-2 lg:gap-4 pl-2 flex-wrap">
           <div
             data-tip="React.js"
-            className="bg-[url('/public/assets/skill_logos/react.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/react.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
+          />
+
+          <div
+            data-tip="Next.js"
+            className="bg-[url('/public/assets/skill_logos/nextjs.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
 
           <div
             data-tip="Typescript"
-            className="bg-[url('/public/assets/skill_logos/typescript.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/typescript.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Redux"
-            className="bg-[url('/public/assets/skill_logos/redux.png')] w-8 h-[30px] lg:w-10 lg:h-[38px] bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/redux.png')] w-8 h-[30px] lg:w-10 lg:h-[38px] bg-center bg-cover rounded-md hover:cursor-pointer"
           />
 
           <div
             data-tip="Tailwind CSS"
-            className="bg-[url('/public/assets/skill_logos/tailwindcss.png')] w-8 h-5 lg:w-10 lg:h-6 my-2 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/tailwindcss.png')] w-8 h-5 lg:w-10 lg:h-6 my-2 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Styled-components"
-            className="bg-[url('/public/assets/skill_logos/styled_components.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/styled_components.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           {/* <div className="bg-[url('/public/assets/skill_logos/javascript.png')] w-10 h-10 bg-center bg-cover rounded-md" /> */}
         </ul>
@@ -42,36 +47,36 @@ const Skills = () => {
         <ul className="flex justify-start gap-2 lg:gap-4 pl-2 flex-wrap ">
           <div
             data-tip="Firebase"
-            className="bg-[url('/public/assets/skill_logos/firebase.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/firebase.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Supabase"
-            className="bg-[url('/public/assets/skill_logos/supabase.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/supabase.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Node.js"
-            className="bg-[url('/public/assets/skill_logos/node.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/node.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Express.js"
-            className="bg-[url('/public/assets/skill_logos/express.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/express.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Django"
-            className="bg-[url('/public/assets/skill_logos/django.png')] w-8 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/django.png')] w-8 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Socket.io"
-            className="bg-[url('/public/assets/skill_logos/socketio.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/socketio.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
 
           <div
             data-tip="MongoDB"
-            className="bg-[url('/public/assets/skill_logos/mongodb.png')] w-7 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/mongodb.png')] w-7 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="SQLite"
-            className="bg-[url('/public/assets/skill_logos/sqlite.png')] w-7 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/sqlite.png')] w-7 h-8 lg:w-9 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
         </ul>
 
@@ -89,19 +94,19 @@ const Skills = () => {
         <ul className="flex justify-start gap-2 lg:gap-4 pl-2 flex-wrap">
           <div
             data-tip="Adobe Illustrator"
-            className="bg-[url('/public/assets/skill_logos/illustrator.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/illustrator.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Adobe Photoshop"
-            className="bg-[url('/public/assets/skill_logos/photoshop.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/photoshop.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Adobe After Effects"
-            className="bg-[url('/public/assets/skill_logos/after_effects.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/after_effects.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Adobe Premiere Pro"
-            className="bg-[url('/public/assets/skill_logos/premiere_pro.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/premiere_pro.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
         </ul>
 
@@ -109,19 +114,19 @@ const Skills = () => {
         <ul className="flex justify-start gap-2 lg:gap-4 pl-2 items-center flex-wrap">
           <div
             data-tip="Solidworks"
-            className="bg-[url('/public/assets/skill_logos/solidworks.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/solidworks.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="KiCAD"
-            className="bg-[url('/public/assets/skill_logos/kicad.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/kicad.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Raspberry Pi"
-            className="bg-[url('/public/assets/skill_logos/raspberry_pi.png')] w-6 h-8 lg:w-8 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/raspberry_pi.png')] w-6 h-8 lg:w-8 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
           <div
             data-tip="Arduino"
-            className="bg-[url('/public/assets/skill_logos/arduino.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md"
+            className="bg-[url('/public/assets/skill_logos/arduino.png')] w-8 h-8 lg:w-10 lg:h-10 bg-center bg-cover rounded-md hover:cursor-pointer"
           />
         </ul>
       </div>

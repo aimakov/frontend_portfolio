@@ -28,20 +28,34 @@ const AboutMe = () => {
           Hello, I'm Nurbolat Aimakov
         </h2>
 
-        <h3 className="flex text-md lg:text-xl items-center gap-2 pt-2">
-          Web developer from
-          <img
-            alt="kazakhstan-flag"
-            className="w-8 h-8 -translate-y-[4px]"
-            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-kazakhstan_1f1f0-1f1ff.png"
-          />
-          , currently in
-          <img
-            alt="korea-flag"
-            className="w-8 h-8 -translate-y-[4px]"
-            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/flag-south-korea_1f1f0-1f1f7.png"
-          />
-        </h3>
+        <div className="flex flex-col md:flex-row items-start text-md lg:text-xl md:items-center gap-2 pt-4">
+          <p className="flex gap-2">
+            Web developer from
+            <a
+              href="https://www.flaticon.com/free-icons/kazakhstan"
+              title="kazakstan icons"
+            >
+              <img
+                alt="kazakhstan-flag"
+                className="w-8 h-8 mx-1 -translate-y-[10px]"
+                src="/assets/icons/kazakhstan.png"
+              />
+            </a>
+          </p>
+          <p className="flex gap-2">
+            , currently in
+            <a
+              href="https://www.flaticon.com/free-icons/korea"
+              title="korea icons"
+            >
+              <img
+                alt="korea-flag"
+                className="w-8 h-8 mx-1 -translate-y-[10px]"
+                src="assets/icons/korea.png"
+              />
+            </a>
+          </p>
+        </div>
 
         <p className="pt-4">
           Currently, I'm a Ph.D. candidate in biomedical engineering at Ulsan
@@ -59,41 +73,51 @@ const AboutMe = () => {
           day-to-day things. Apart from Front-End, I'm proficient in Back-End
           technologies like Django & MERN stack for building complete products.
         </p>
-        <div className="flex gap-10 pt-4 justify-start items-center">
-          <a href="https://instagram.com/aimakov.dev">
-            <Instagram
-              className="cursor-pointer"
-              fill={instagramColor}
-              onMouseEnter={() => changeColorOnEnter(setInstagramColor)}
-              onMouseLeave={() => changeColorOnLeave(setInstagramColor)}
-            />
-          </a>
+        <div className="flex flex-col md:flex-row gap-10 mt-6 pt-4 justify-start items-center">
+          <div className="flex  gap-10 items-center">
+            <a href="https://instagram.com/aimakov.dev">
+              <Instagram
+                className="cursor-pointer"
+                fill={instagramColor}
+                onMouseEnter={() => changeColorOnEnter(setInstagramColor)}
+                onMouseLeave={() => changeColorOnLeave(setInstagramColor)}
+              />
+            </a>
 
-          <a href="https://github.com/aimakov">
-            <Github
-              className="cursor-pointer"
-              fill={githubColor}
-              onMouseEnter={() => changeColorOnEnter(setGithubColor)}
-              onMouseLeave={() => changeColorOnLeave(setGithubColor)}
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/aimakov/">
-            <Linkedin
-              className="cursor-pointer"
-              fill={linkedInColor}
-              onMouseEnter={() => changeColorOnEnter(setLinkedInColor)}
-              onMouseLeave={() => changeColorOnLeave(setLinkedInColor)}
-            />
-          </a>
+            <a href="https://github.com/aimakov">
+              <Github
+                className="cursor-pointer"
+                fill={githubColor}
+                onMouseEnter={() => changeColorOnEnter(setGithubColor)}
+                onMouseLeave={() => changeColorOnLeave(setGithubColor)}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/aimakov/">
+              <Linkedin
+                className="cursor-pointer"
+                fill={linkedInColor}
+                onMouseEnter={() => changeColorOnEnter(setLinkedInColor)}
+                onMouseLeave={() => changeColorOnLeave(setLinkedInColor)}
+              />
+            </a>
+          </div>
 
           <a
+            href="https://www.upwork.com/freelancers/~01e07e43f9d95233ac"
+            className="flex text-[1.3rem] font-hind font-bold gap-2 items-center hover:text-[#6FDB42]  transition-all border border-black rounded-xl px-2 "
+          >
+            Hire me on
+            <img className="w-[80px]" src="/assets/upwork.png  " />
+          </a>
+
+          {/* <a
             href="/assets/files/Resume_Nurbolat_Aimakov.pdf"
             download
             className="flex justify-center items-center gap-2 border border-black pt-1 px-2 rounded-xl cursor-pointer hover:bg-[#007D13] hover:bg-opacity-90 hover:text-white hover:border-white transition "
           >
             <FiDownload className="text-xl -translate-y-[2px]" />
             My resume
-          </a>
+          </a> */}
         </div>
       </div>
 
