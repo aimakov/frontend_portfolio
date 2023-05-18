@@ -10,12 +10,12 @@ const Projects = () => {
       <h2 className="text-3xl font-bold mb-16">My Projects </h2>
       <ul className="w-full flex flex-col lg:flex-row lg:items-start lg:justify-evenly gap-14 lg:gap-[70px] lg:flex-wrap justify-evenly items-center">
         <ProjectCard
-          src={"/assets/images/Dreamate.png"}
+          src={"/assets/images/Dreamate_vercel.png"}
           title={"Dreamate"}
           description={
             "Full-stack web application (MERN stack) that combines decentralized music playlist and randomized & balanced teams generator."
           }
-          link={"https://dreamate.io"}
+          link={"https://dreamate.vercel.app"}
           hashtags={["React.js", "Socket.io", "Express.js"]}
           buttonStyle="bg-gradient-to-r from-green-200 to-blue-200"
         />
